@@ -49,14 +49,22 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:16f959bef7a28122487edd1bea2e918a64b019bfaf71c0c82ae519b5a9c30ff8"
+  digest = "1:d8b2864930447d6b4f1640b4d44915db51690723f86a3e3e32391d6f2ad76f67"
   name = "github.com/jackkitte/youtube_manager_go"
   packages = [
     "routes",
     "web/api",
   ]
   pruneopts = "UT"
-  revision = "10fc127f66d8b4f0a40ba4af86e7c9d33874be31"
+  revision = "46304d0ccb5252c5ed023d3d7fa4fd9675b64712"
+
+[[projects]]
+  digest = "1:ecd9aa82687cf31d1585d4ac61d0ba180e42e8a6182b85bd785fcca8dfeefc1b"
+  name = "github.com/joho/godotenv"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "23d116af351c84513e1946b527c88823e476be13"
+  version = "v1.3.0"
 
 [[projects]]
   digest = "1:cb7edefacdcbfd95b7611c11b3b027404fa39a66fdc91f6366e1811cbdb5cd3e"
@@ -350,10 +358,12 @@
   input-imports = [
     "github.com/jackkitte/youtube_manager_go/routes",
     "github.com/jackkitte/youtube_manager_go/web/api",
+    "github.com/joho/godotenv",
     "github.com/labstack/echo",
     "github.com/labstack/echo/middleware",
     "github.com/sirupsen/logrus",
     "github.com/valyala/fasthttp",
+    "google.golang.org/api/option",
     "google.golang.org/api/youtube/v3",
   ]
   solver-name = "gps-cdcl"
