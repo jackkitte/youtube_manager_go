@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:c1ebdb0d84d719ef4dc28638bf7f4293f183796fbe092e3b53c5d193a799deaa"
+  name = "github.com/jackkitte/youtube_manager_go"
+  packages = ["web/api"]
+  pruneopts = "UT"
+  revision = "598107d1edfbfc60e6ea0aa5e0823195e08a0ef4"
+
+[[projects]]
   digest = "1:cb7edefacdcbfd95b7611c11b3b027404fa39a66fdc91f6366e1811cbdb5cd3e"
   name = "github.com/klauspost/compress"
   packages = [
@@ -132,6 +140,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/jackkitte/youtube_manager_go/web/api",
     "github.com/labstack/echo",
     "github.com/valyala/fasthttp",
   ]
