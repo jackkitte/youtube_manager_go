@@ -40,3 +40,11 @@
 [[constraint]]
   branch = "master"
   name = "github.com/jackkitte/youtube_manager_go"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "1.4.2"
+
+[[constraint]]
+  name = "google.golang.org/api"
+  version = "0.15.0"
