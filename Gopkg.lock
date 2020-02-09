@@ -49,14 +49,15 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:03010f24103970fb5f6c3b688645ff6971f480da457fd793827917c12d639d4c"
+  digest = "1:60aa94602866a30659c796f5318c0ec7238f38d1394fdf209d6f0b329acf0bdc"
   name = "github.com/jackkitte/youtube_manager_go"
   packages = [
+    "middlewares",
     "routes",
     "web/api",
   ]
   pruneopts = "UT"
-  revision = "d5a48d0b59e7f99f290333a9b3c2348628edbd1a"
+  revision = "43fd7134e6069a2532e42a2c04db6107d3eb9c5c"
 
 [[projects]]
   digest = "1:ecd9aa82687cf31d1585d4ac61d0ba180e42e8a6182b85bd785fcca8dfeefc1b"
@@ -356,6 +357,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/jackkitte/youtube_manager_go/middlewares",
     "github.com/jackkitte/youtube_manager_go/routes",
     "github.com/jackkitte/youtube_manager_go/web/api",
     "github.com/joho/godotenv",
