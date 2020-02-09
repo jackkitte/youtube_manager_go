@@ -49,7 +49,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:60aa94602866a30659c796f5318c0ec7238f38d1394fdf209d6f0b329acf0bdc"
+  digest = "1:e4157897809ccfb1dc81d93f4ab806ba47767579e4575f6a5eb6d4866115486c"
   name = "github.com/jackkitte/youtube_manager_go"
   packages = [
     "middlewares",
@@ -57,7 +57,7 @@
     "web/api",
   ]
   pruneopts = "UT"
-  revision = "43fd7134e6069a2532e42a2c04db6107d3eb9c5c"
+  revision = "c528bfd088bff69999c45c050b415004c06f3ad5"
 
 [[projects]]
   digest = "1:ecd9aa82687cf31d1585d4ac61d0ba180e42e8a6182b85bd785fcca8dfeefc1b"
