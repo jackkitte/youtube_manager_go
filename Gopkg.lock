@@ -49,14 +49,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:d8b2864930447d6b4f1640b4d44915db51690723f86a3e3e32391d6f2ad76f67"
+  digest = "1:03010f24103970fb5f6c3b688645ff6971f480da457fd793827917c12d639d4c"
   name = "github.com/jackkitte/youtube_manager_go"
   packages = [
     "routes",
     "web/api",
   ]
   pruneopts = "UT"
-  revision = "46304d0ccb5252c5ed023d3d7fa4fd9675b64712"
+  revision = "d5a48d0b59e7f99f290333a9b3c2348628edbd1a"
 
 [[projects]]
   digest = "1:ecd9aa82687cf31d1585d4ac61d0ba180e42e8a6182b85bd785fcca8dfeefc1b"
@@ -196,7 +196,7 @@
     "acme/autocert",
   ]
   pruneopts = "UT"
-  revision = "69ecbb4d6d5dab05e49161c6e77ea40a030884e1"
+  revision = "ecb85df213405b7d32e4d73cb5bbaace2ec88881"
 
 [[projects]]
   branch = "master"
@@ -231,11 +231,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fea09edda033799f8e99ab9042bda910bf1e3bf088c03eaf2ba8aba3adbbc8bf"
+  digest = "1:72b7c210f8cfe1431d2f300fbf37f25e52aa77324b05ab6b698483054033803e"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "9fbb57f87de9ccfe3a99d4e3270ce8a926ebba4f"
+  revision = "d101bd2416d505c0448a6ce8a282482678040a89"
 
 [[projects]]
   digest = "1:8d8faad6b12a3a4c819a3f9618cb6ee1fa1cfc33253abeeea8b55336721e3405"
@@ -305,10 +305,10 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "58ce757ed39bbbe3bf3960b90ded218031b35389"
+  revision = "4f3edf09f4f643aee978706652368efb6e407faa"
 
 [[projects]]
-  digest = "1:42e8be8bcbfbc169331af8d0bbdc43a30a57fdb951d6c9035c187b633ac2396e"
+  digest = "1:de21a2d5b9c8697d83f5ab48f3e8fe3616c33ac4b2d057083662dede0e81488e"
   name = "google.golang.org/grpc"
   packages = [
     ".",
@@ -349,8 +349,8 @@
     "tap",
   ]
   pruneopts = "UT"
-  revision = "a89bee78ddf0f67f27c06b1b2b1b071c18408724"
-  version = "v1.27.0"
+  revision = "f495f5b15ae7ccda3b38c53a1bfcde4c1a58a2bc"
+  version = "v1.27.1"
 
 [solve-meta]
   analyzer-name = "dep"
