@@ -7,13 +7,17 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/sirupsen/logrus"
+	"os"
 )
 
 func init() {
-	err := godotenv.Load("env/.env")
+	heroku := os.Getenv("HEROKU")
+	if heroku == "false" {
+		err := godotenv.Load("env/.env")
 
-	if err != nil {
-		logrus.Fatal("Error loading .env")
+		if err != nil {
+			logrus.Fatal("Error loading .env")
+		}
 	}
 	logrus.SetLevel(logrus.DebugLevel)
 	logrus.SetFormatter(&logrus.JSONFormatter{})
