@@ -1,1 +1,1 @@
-web: youtube_manager_go
+web: youtube-manager-go
