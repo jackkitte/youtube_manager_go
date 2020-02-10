@@ -24,6 +24,7 @@ func init() {
 }
 
 func main() {
+	port := os.Getenv("PORT")
 	e := echo.New()
 
 	//Middleware
@@ -36,5 +37,5 @@ func main() {
 	//Routes
 	routes.Init(e)
 
-	e.Logger.Fatal(e.Start(":8888"))
+	e.Logger.Fatal(e.Start(":" + port))
 }
