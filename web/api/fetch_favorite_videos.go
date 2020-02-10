@@ -4,7 +4,7 @@ import (
 	"firebase.google.com/go/auth"
 	"github.com/jackkitte/youtube_manager_go/middlewares"
 	"github.com/jackkitte/youtube_manager_go/models"
-	"github.com/lagstack/echo"
+	"github.com/labstack/echo"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 	"google.golang.org/api/youtube/v3"
