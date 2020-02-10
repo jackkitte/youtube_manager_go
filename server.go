@@ -12,11 +12,11 @@ import (
 
 func init() {
 	heroku := os.Getenv("HEROKU")
-	if heroku == "false" {
+	if heroku != "true" {
 		err := godotenv.Load("env/.env")
 
 		if err != nil {
-			logrus.Fatal("Error loading .env")
+			logrus.Fatal("[Echo] Error loading .env")
 		}
 	}
 	logrus.SetLevel(logrus.DebugLevel)

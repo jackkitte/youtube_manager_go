@@ -10,11 +10,11 @@ import (
 
 func Connect() (db *gorm.DB, err error) {
 	heroku := os.Getenv("HEROKU")
-	if heroku == "false" {
+	if heroku != "true" {
 		err = godotenv.Load("env/.env")
 
 		if err != nil {
-			logrus.Fatal("Error loading .env file")
+			logrus.Fatal("[DB] Error loading .env file")
 		}
 	}
 
