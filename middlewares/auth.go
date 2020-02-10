@@ -1,7 +1,6 @@
 package middlewares
 
 import (
-	"cmd/go/internal/auth"
 	"context"
 	"firebase.google.com/go/auth"
 	"github.com/labstack/echo"
