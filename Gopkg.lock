@@ -117,7 +117,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:39297fd333952c04a566be960b880dc456b6cb4b38258b19589d21ad613a0e2a"
+  digest = "1:af32960c74b801f27b778b430a3cb0d4b8a0d7918e6493f72b51ef68cd8c29c3"
   name = "github.com/jackkitte/youtube_manager_go"
   packages = [
     "databases",
@@ -127,7 +127,7 @@
     "web/api",
   ]
   pruneopts = "UT"
-  revision = "048aebf7e0d1b3e7d917d2baf7f10e54511ff52f"
+  revision = "483960b3ba254e7e16ec53902068a239c09eea37"
 
 [[projects]]
   digest = "1:3f4a1fbb5a68fd7a76273c7576a10c39d7a94247bf8c7ac1ae0c8200efa16ade"

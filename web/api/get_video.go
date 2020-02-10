@@ -42,7 +42,8 @@ func GetVideo() echo.HandlerFunc {
 		}
 
 		v := VideoResponse{
-			VideoList: res,
+			VideoList:  res,
+			IsFavorite: isFavorite,
 		}
 
 		return c.JSON(fasthttp.StatusOK, v)
