@@ -1,1 +1,1 @@
-web: $(basename `pwd`)
+web: youtube_manager_go
