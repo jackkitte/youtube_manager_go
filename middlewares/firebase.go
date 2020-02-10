@@ -12,7 +12,8 @@ import (
 func Firebase() echo.MiddlewareFunc {
 	return func(next echo.HandlerFunc) echo.HandlerFunc {
 		return func(c echo.Context) error {
-			opt := option.WithCredentialsFile(os.Getenv("KEY_JSON_PATH"))
+			//opt := option.WithCredentialsFile(os.Getenv("KEY_JSON_PATH"))
+			opt := option.WithCredentialsJSON(os.Getenv("KEY_JSON"))
 			config := &firebase.Config{ProjectID: os.Getenv("PROJECT_ID")}
 			app, err := firebase.NewApp(context.Background(), config, opt)
 
