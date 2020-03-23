@@ -1,1 +1,1 @@
-web: youtube-manager-go
+web: bin/youtube-manager-go
